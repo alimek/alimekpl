@@ -35,15 +35,15 @@ import store from './store';
 
 ReactDOM.render(
   <Provider store={store}>
-      <Router
-        history={browserHistory}
-        routes={rootRoute}
-        render={
-          // Scroll to top when going to a new page, imitating default browser
-          // behaviour
-          applyRouterMiddleware(useScroll())
-        }
-      />
+    <Router
+      history={browserHistory}
+      routes={rootRoute}
+      render={
+        // Scroll to top when going to a new page, imitating default browser
+        // behaviour
+        applyRouterMiddleware(useScroll())
+      }
+    />
   </Provider>,
   document.getElementById('app')
 );

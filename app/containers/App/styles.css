@@ -9,12 +9,12 @@
   flex: 1;
 }
 
-
-html, body {
+html,
+body {
   width: 100%;
   min-height: 100%;
   display: flex;
-  font-family: 'Andika', sans-serif
+  font-family: Andika, sans-serif;
 }
 
 :global(#app) {
@@ -22,12 +22,11 @@ html, body {
   flex: 1;
 }
 
-
 .full {
   display: flex;
   flex: 1;
   flex-direction: column;
-  background: #f9f9f9;
+  background: #F9F9F9;
 }
 
 .content {

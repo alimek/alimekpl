@@ -9,8 +9,7 @@ const tags = [
   'react', 'angularjs', 'php', 'symfony3', 'javascript', 'react-native', 'jira', 'jenkins', 'git-flow', 'responsive-web',
   'es6', 'gulp', 'bower', 'html', 'css', 'ionic', 'ios', 'sass', 'typescript', 'node.js', 'git', 'svn', 'osx', 'aws',
   'amazon', 'traveling', 'food', 'beer', 'whisky', 'photoshop', 'photography', 'apple', 'symfony2', 'less', 'sass',
-  'redux', 'mobx'
-
+  'redux', 'mobx',
 ];
 
 Store.hashTags.replace(tags);

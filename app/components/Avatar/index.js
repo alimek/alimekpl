@@ -2,7 +2,7 @@ import React from 'react';
 
 import styles from './styles.css';
 
-const Avatar = ({ image, className }) => <div className={className}><img className={styles.img} src={image} /></div>;
+const Avatar = ({ image, className }) => <div className={className}><img className={styles.img} src={image} alt="Avatar" /></div>;
 
 Avatar.propTypes = {
   image: React.PropTypes.any.isRequired,
