@@ -1,0 +1,13 @@
+.hashes {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  min-height: 5rem;
+  flex: 1;
+  flex-wrap: wrap;
+
+}
+
+.content {
+  margin-bottom: 1rem;
+}

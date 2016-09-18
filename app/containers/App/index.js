@@ -1,31 +1,21 @@
-/**
- *
- * App.react.js
- *
- * This component is the skeleton around the actual pages, and should only
- * contain code that should be seen on all pages. (e.g. navigation bar)
- *
- * NOTE: while this component should technically be a stateless functional
- * component (SFC), hot reloading does not currently support SFCs. If hot
- * reloading is not a necessity for you then you can refactor it and remove
- * the linting exception.
- */
-
 import React from 'react';
 
 import styles from './styles.css';
+import Footer from '../Footer';
 
-export default class App extends React.Component { // eslint-disable-line react/prefer-stateless-function
+const App = ({ children }) => (
+  <div className={styles.full}>
+    <div className={styles.content}>
+      {React.Children.toArray(children)}
+    </div>
+    <div className={styles.footer}>
+      <Footer />
+    </div>
+  </div>
+);
 
-  static propTypes = {
-    children: React.PropTypes.node,
-  };
+App.propTypes = {
+  children: React.PropTypes.node,
+};
 
-  render() {
-    return (
-      <div className={styles.container}>
-        {React.Children.toArray(this.props.children)}
-      </div>
-    );
-  }
-}
+export default App;

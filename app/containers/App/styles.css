@@ -5,5 +5,40 @@
  */
 
 .container {
-  display: block;
+  display: flex;
+  flex: 1;
+}
+
+
+html, body {
+  width: 100%;
+  min-height: 100%;
+  display: flex;
+  font-family: 'Andika', sans-serif
+}
+
+:global(#app) {
+  display: flex;
+  flex: 1;
+}
+
+
+.full {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  background: #f9f9f9;
+}
+
+.content {
+  flex: 0.9;
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer {
+  flex: 0.1;
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-around;
 }

@@ -1,0 +1,46 @@
+.container {
+  align-self: center;
+  padding: 5rem 2rem 2rem;
+  background: white;
+  border: 1px solid #e1e1e1;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 2rem #e1e1e1;
+  position: relative;
+  margin-top: 12rem;
+}
+
+.avatar {
+  position: absolute;
+  border-radius: 50%;
+  max-width: 15rem;
+  top: -10rem;
+  left: 50%;
+  margin-left: -7.5rem;
+}
+
+@media only screen and (max-width : 767px) {
+  .container {
+    width: 95%;
+  }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+  .container {
+    width: 80%;
+  }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+  .container {
+    width: 70%;
+  }
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+  .container {
+    width: 50%;
+  }
+}

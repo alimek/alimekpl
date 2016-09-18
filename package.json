@@ -1,15 +1,15 @@
 {
-  "name": "react-boilerplate",
-  "version": "3.2.0",
-  "description": "A highly scalable, offline-first foundation with the best DX and a focus on performance and best practices",
+  "name": "alimek-pl",
+  "version": "1.0.0",
+  "description": "Website for alimek.pl - Usługi infrmatyczne Grzegorz Mandziak",
   "repository": {
     "type": "git",
-    "url": "git://github.com/mxstbr/react-boilerplate.git"
+    "url": "git@github.com:alimek/alimekpl.git"
   },
   "engines": {
     "npm": ">=3"
   },
-  "author": "Max Stoiber",
+  "author": "Grzegorz Mandziak",
   "license": "MIT",
   "scripts": {
     "analyze:clean": "rimraf stats.json",
@@ -103,7 +103,10 @@
       }
     },
     "rules": {
-      "arrow-parens": ["error", "always"],
+      "arrow-parens": [
+        "error",
+        "always"
+      ],
       "arrow-body-style": [
         2,
         "as-needed"
@@ -139,7 +142,10 @@
       "prefer-template": 2,
       "class-methods-use-this": 0,
       "react/forbid-prop-types": 0,
-      "react/jsx-first-prop-new-line": [2, "multiline"],
+      "react/jsx-first-prop-new-line": [
+        2,
+        "multiline"
+      ],
       "react/jsx-filename-extension": 0,
       "react/jsx-no-target-blank": 0,
       "react/require-extension": 0,
@@ -199,9 +205,10 @@
   "dependencies": {
     "babel-polyfill": "6.13.0",
     "chalk": "1.1.3",
-    "cross-env": "2.0.1",
     "compression": "1.6.2",
+    "cross-env": "2.0.1",
     "express": "4.14.0",
+    "font-awesome": "^4.6.3",
     "fontfaceobserver": "2.0.4",
     "immutable": "3.8.1",
     "intl": "1.2.4",
@@ -209,17 +216,15 @@
     "ip": "1.1.3",
     "lodash": "4.15.0",
     "minimist": "1.2.0",
+    "mobx": "^2.5.1",
+    "mobx-react": "^3.5.6",
     "react": "15.3.1",
     "react-dom": "15.3.1",
+    "react-fontawesome": "^1.2.0",
     "react-helmet": "3.1.0",
-    "react-redux": "4.4.5",
     "react-intl": "2.1.5",
     "react-router": "2.8.0",
-    "react-router-redux": "4.0.5",
     "react-router-scroll": "0.3.2",
-    "redux": "3.6.0",
-    "redux-immutable": "3.0.8",
-    "redux-saga": "0.11.1",
     "reselect": "2.5.3",
     "sanitize.css": "4.1.0",
     "warning": "3.0.0",

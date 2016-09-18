@@ -1,0 +1,22 @@
+.row {
+  margin-bottom: 1rem;
+}
+
+.link {
+  text-decoration: none;
+  font-size: 2rem;
+  line-height: 3rem;
+  position: relative;
+  color: inherit;
+  display: flex;
+  flex-direction: row;
+}
+
+.icon {
+  display: inline-block;
+}
+
+.text {
+  line-height: 4rem;
+  margin-left: 1rem;
+}
